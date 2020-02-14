@@ -1,6 +1,4 @@
-FROM ubuntu:16.04
-
-MAINTANER Your Name "youremail@domain.tld"
+FROM ubuntu:18.04
 
 RUN apt-get update -y && \
     apt-get install -y python-pip python-dev
