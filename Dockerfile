@@ -1,5 +1,5 @@
-FROM ubuntu:18.04
-
+#FROM ubuntu:18.04
+FROM python:slim
 RUN apt-get update -y && \
     apt-get install -y python-pip python-dev
 
